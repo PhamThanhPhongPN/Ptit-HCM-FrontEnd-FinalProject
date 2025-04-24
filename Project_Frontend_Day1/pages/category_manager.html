@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CategoryManager</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/category_manager.css">
+</head>
+<body>
+    <header>
+        <h4>QuizzForge</h4>
+        <div class="texts">
+            <p>Danh mục</p>
+            <p>Bài test</p>
+            <p>Đăng xuất</p>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Quản lý danh mục</h2>
+        <button class="btn btn-primary">Thêm danh mục</button>
+    
+        <table class="category-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Tên danh mục</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>📘 Lịch sử</td>
+                    <td>
+                        <button class="btn btn-warning">Sửa</button>
+                        <button class="btn btn-danger">Xoá</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>🧪 Khoa học</td>
+                    <td>
+                        <button class="btn btn-warning">Sửa</button>
+                        <button class="btn btn-danger">Xoá</button>
+                    </td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    
+        <div class="pagination">
+            <button disabled>«</button>
+            <button class="active">1</button>
+            <button>2</button>
+            <button>»</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p>© 2025 Quizz App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
